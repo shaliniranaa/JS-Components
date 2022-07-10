@@ -1,7 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My JS Components</title>
+    <title>My JS Component</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <! --- Main Header --- !>
+      <header>
+        <h1>My Navigation Bar</h1>
+      </header>
+
+      <!--- nesting nav element inside Header is not neccessary some web designer argue that making them as seperate components is better for a11y as Screen Readers can read them better if they are seperate-->
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact Me </a></li>
+        </ul>
+      </nav>
+    </div>
+  </body>
 </html>
