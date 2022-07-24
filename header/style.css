@@ -5,8 +5,8 @@
 }
 
 .site-header {
-  background-color: beige;
-  height: 60px;
+  background-color: #d6faf3;
+  min-height: 60px;
   display: flex;
   -webkit-box-pack: justify;
   justify-content: space-between;
@@ -21,5 +21,10 @@
 }
 
 .nav-list-item {
-  margin-right: 1rem;
+  margin-right: 1em;
 }
+
+.nav-list-link {
+  text-decoration: none;
+}
+
